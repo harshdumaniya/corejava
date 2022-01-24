@@ -8,13 +8,10 @@ package com.hd.core;
 public class Pattern {
 
 	public static void main(String args[]) {
-		for (int i = 0; i < 6; i++)//loop for row
-		{
-			for (int j = 0; j <= i; j++)//loop for column
-			{
-				System.out.print("*");//print stars
-			}
-			System.out.println();//throw cursour in new line
+		for (int i = 0; i < 6; i++) // Loop for row
+		{for (int j = 0; j <= i; j++) {// Loop for column
+				System.out.print("*"); // Print stars
+			}System.out.println(); // Throw cursour in new line
 		}
 	}
 

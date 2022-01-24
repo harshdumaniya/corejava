@@ -8,8 +8,7 @@ package com.hd.core;
 public class HelloWorld {
 	
 	public static void main(String args[]) {
-		/*use a java standard class for printing*/
-		System.out.println("Hello World"); //print helloworld
+		System.out.println("Hello World"); // Print helloworld
 	}
 	
 }

@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class EmiCalc {
 
-	public void calc(float p,float r,float t) {
+	public void calc(float p, float r, float t) {
 		float principle = p;
 		float rate = r;
 		float time = t;
@@ -17,23 +17,22 @@ public class EmiCalc {
 		rate = rate / (12 * 100);
 		time = time * 12;
 		float emi = (( p * r * (float) Math.pow (1 + r, t )) / ((float) Math.pow ( 1 + r, t ) -1 )); 
-		System.out.print("EMI is: "+emi+"\n");
-		}
+		System.out.print("EMI is: "+ emi +"\n");
+	}
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Enter the principle amount: ");//principle amount
+		System.out.print("Enter the principle amount: "); // Principle amount
 		float principle = sc.nextFloat();
 
-		System.out.print("Enter the rate of intrest:");//intrest rate
+		System.out.print("Enter the rate of intrest:"); // Intrest rate
 		float rate = sc.nextFloat();
 
-		System.out.print("Enter the time period:");//time in year
+		System.out.print("Enter the time period:"); // Time in year
 		float time = sc.nextFloat();
 
 		EmiCalc emi = new EmiCalc();
-		emi.calc(principle,rate,time);
+		emi.calc(principle,rate,time); // Calculate emi based on priciple amount,intrest rate and time
 	}
 
 }

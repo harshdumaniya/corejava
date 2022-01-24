@@ -14,7 +14,7 @@ public class SumCounstructer {
 
 	public static void main(String args[]) {
 		SumCounstructer sc = new SumCounstructer();
-		System.out.println(sc.sum);		
+		System.out.println(sc.sum); // Print sum in the output
 	}
 
 }

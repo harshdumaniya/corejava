@@ -11,7 +11,7 @@ public class Age {
 
 	public static void main(String args[]) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter your age:");//enter age
+		System.out.println("Enter your age:"); // Enter age
 		int age = scanner.nextInt();
 		if (age > 18) {
 			System.out.println("You are eligibe for voting");

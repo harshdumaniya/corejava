@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class MonthName {
 
 	public static void main(String[] args) {
-		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a month number");//enter a number
 		int month = scanner.nextInt();
@@ -53,10 +52,9 @@ public class MonthName {
 		case 12:
 			System.out.println("December");
 			break;
-		default://invalid output
+		default: // Invalid output
 			System.out.println("You entered wrong input number");
 			break;
-		
 		}
 	}
 
