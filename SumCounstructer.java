@@ -6,12 +6,11 @@ package com.hd.core;
  * @since 24-01-2022
  */
 public class SumCounstructer {
-	
+
 	int i = 10, j = 5, sum;
 	public SumCounstructer() {
 		sum = i + j;
 	}
-
 	public static void main(String args[]) {
 		SumCounstructer scanner = new SumCounstructer();
 		System.out.println(scanner.sum); // Print sum in the output

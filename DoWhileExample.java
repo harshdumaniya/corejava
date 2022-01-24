@@ -6,7 +6,7 @@ package com.hd.core;
  * @since 24-01-2022
  */
 public class DoWhileExample {
-	
+
 	public static void main(String args[]) {
 		int i = 0;
 		do {
