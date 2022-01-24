@@ -14,7 +14,6 @@ public class MonthName {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a month number"); // Enter a number
 		int month = scanner.nextInt();
-		
 		switch (month) {
 			case 1:
 				System.out.println("January");

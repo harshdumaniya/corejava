@@ -17,7 +17,7 @@ public class StringMethods {
 		System.out.println(carName.charAt(1));
 		System.out.println(carName.charAt(2));
 		System.out.println("\n");
-		
+
 		System.out.println(carName.equals(carColour));
 	}
 

@@ -32,7 +32,7 @@ public class EmiCalc {
 		float time = scanner.nextFloat();
 
 		EmiCalc emi = new EmiCalc();
-		emi.calc(principle, rate , time); // Calculate emi based on priciple amount,intrest rate and time
+		emi.calc(principle, rate, time); // Calculate emi based on priciple amount,intrest rate and time
 	}
 
 }
