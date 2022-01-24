@@ -1,9 +1,15 @@
 package com.hd.core;
 
+import java.util.Scanner;
+
 public class MonthName {
 
 	public static void main(String[] args) {
-		int month = 7;
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter a month number");
+		int month = scanner.nextInt();
+		
 		switch (month) {
 		case 1:
 			System.out.println("January");
