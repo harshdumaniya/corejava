@@ -14,13 +14,13 @@ class Person {
 }
 package com.hd.core;
 
-class TestThis {
+class PersonDetails {
 	
-public static void main(String args[]) {
-				Person person1=new Person(20,"Suresh");
-				Person person2=new Person(21,"Mahesh");
-				person1.show();
-				person2.show();
-				}
+	public static void main(String args[]) {
+		Person person1 = new Person(20 , "Suresh");
+		Person person2 = new Person(21 , "Mahesh");
+		person1.show();
+		person2.show();
+	}
 
 }

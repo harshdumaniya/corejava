@@ -21,18 +21,18 @@ public class EmiCalc {
 	}
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter the principle amount: "); // Principle amount
-		float principle = sc.nextFloat();
+		float principle = scanner.nextFloat();
 
 		System.out.print("Enter the rate of intrest:"); // Intrest rate
-		float rate = sc.nextFloat();
+		float rate = scanner.nextFloat();
 
 		System.out.print("Enter the time period:"); // Time in year
-		float time = sc.nextFloat();
+		float time = scanner.nextFloat();
 
 		EmiCalc emi = new EmiCalc();
-		emi.calc(principle,rate,time); // Calculate emi based on priciple amount,intrest rate and time
+		emi.calc(principle, rate , time); // Calculate emi based on priciple amount,intrest rate and time
 	}
 
 }

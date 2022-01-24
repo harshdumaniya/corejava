@@ -12,7 +12,7 @@ public class MonthName {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter a month number");//enter a number
+		System.out.println("Enter a month number"); // Enter a number
 		int month = scanner.nextInt();
 		
 		switch (month) {

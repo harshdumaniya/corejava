@@ -13,8 +13,8 @@ public class SumCounstructer {
 	}
 
 	public static void main(String args[]) {
-		SumCounstructer sc = new SumCounstructer();
-		System.out.println(sc.sum); // Print sum in the output
+		SumCounstructer scanner = new SumCounstructer();
+		System.out.println(scanner.sum); // Print sum in the output
 	}
 
 }
