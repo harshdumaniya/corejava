@@ -4,7 +4,7 @@ public class MonthName {
 
 	public static void main(String[] args) {
 		int month = 7;
-		switch(month){
+		switch (month) {
 		case 1:
 			System.out.println("January");
 			break;
