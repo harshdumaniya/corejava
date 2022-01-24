@@ -1,6 +1,6 @@
 package com.hd.core;
 
-public class Main {
+public class Age {
 
 	public static void main(String args[]) {
 		int age = 19;
