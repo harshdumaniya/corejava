@@ -2,6 +2,11 @@ package com.hd.core;
 
 import java.util.Scanner;
 
+/**Practical 8 : emi calculater
+ * @author Harsh
+ * @version 1.0
+ * @since 24-01-2022
+ */
 public class EmiCalc {
 
 	public void calc(float p,float r,float t) {
@@ -18,13 +23,13 @@ public class EmiCalc {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Enter the principle amount: ");
+		System.out.print("Enter the principle amount: ");//principle amount
 		float principle = sc.nextFloat();
 
-		System.out.print("Enter the rate of intrest:");
+		System.out.print("Enter the rate of intrest:");//intrest rate
 		float rate = sc.nextFloat();
 
-		System.out.print("Enter the time period:");
+		System.out.print("Enter the time period:");//time in year
 		float time = sc.nextFloat();
 
 		EmiCalc emi = new EmiCalc();

@@ -1,5 +1,10 @@
 package com.hd.core;
 
+/**Practical 10 : Examples of different String methods
+ * @author Harsh
+ * @version 1.0
+ * @since 24-01-2022
+ */
 public class StringMethods {
 
 	public static void main(String[] args) {

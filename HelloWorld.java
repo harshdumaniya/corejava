@@ -1,9 +1,9 @@
 package com.hd.core;
 
-/**this is program to print hello world
- * using java standard class
- * @author Dell
+/**Practical 1 : program to print hello world
+ * @author Harsh
  * @version 1.0
+ * @since 24-01-2022
  */
 public class HelloWorld {
 	

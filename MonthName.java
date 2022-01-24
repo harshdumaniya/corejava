@@ -2,12 +2,18 @@ package com.hd.core;
 
 import java.util.Scanner;
 
+/**Practical 3 : program to find the current month name from the given number
+ * @author Harsh
+ * @version 1.0
+ * @since 24-01-2022
+ */
+
 public class MonthName {
 
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter a month number");
+		System.out.println("Enter a month number");//enter a number
 		int month = scanner.nextInt();
 		
 		switch (month) {
@@ -47,7 +53,7 @@ public class MonthName {
 		case 12:
 			System.out.println("December");
 			break;
-		default:
+		default://invalid output
 			System.out.println("You entered wrong input number");
 			break;
 		

@@ -1,5 +1,10 @@
 package com.hd.core;
 
+/**Practical 6 : example of a break/Continue statement
+ * @author Harsh
+ * @version 1.0
+ * @since 24-01-2022
+ */
 public class BreakContinueExample {
 
 	public static void main(String args[]) {
