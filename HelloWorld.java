@@ -1,14 +1,15 @@
 package com.hd.core;
-/**this is a program to print hello world in the output using standard java class */
 
+/**this is program to print hello world
+ * using java standard class
+ * @author Dell
+ * @version 1.0
+ */
 public class HelloWorld {
 	
-	public static void main(String[] args) {
-		
-		
-		/*write a java standard class for print the output*/
-			System.out.println("hello World");//print helloworld
-		
+	public static void main(String args[]) {
+		/*use a java standard class for printing*/
+		System.out.println("Hello World"); //print helloworld
 	}
-
+	
 }

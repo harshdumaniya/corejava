@@ -1,4 +1,5 @@
 package com.hd.core;
+
 public class Main {
 
 	public static void main(String args[]) {
