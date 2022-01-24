@@ -12,6 +12,7 @@ public class WrapperClass {
 		Integer intObject1 = new Integer(a);
 		int b = 100;
 		Integer intObject2 = new Integer(b);
+		
 		if (a == b) {
 			System.out.println("Same");
 		} else {

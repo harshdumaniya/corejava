@@ -11,6 +11,7 @@ public class SumCounstructer {
 	public SumCounstructer() {
 		sum = i + j;
 	}
+
 	public static void main(String args[]) {
 		SumCounstructer scanner = new SumCounstructer();
 		System.out.println(scanner.sum); // Print sum in the output
