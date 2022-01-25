@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 15.1 : Program to demonstrate Single Inheritance
+/**
+ * Practical 15.1 : Program to demonstrate Single Inheritance
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022

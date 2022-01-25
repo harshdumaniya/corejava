@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 14 : Program to demonstrate Encapsulation
+/**
+ * Practical 14 : Program to demonstrate Encapsulation
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022

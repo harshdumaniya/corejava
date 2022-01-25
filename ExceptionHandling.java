@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 18 : Program to handle exceptions using try, catch, finally
+/**
+ * Practical 18 : Program to handle exceptions using try, catch, finally
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022

@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 15.2 : Program to demonstrate Multilevel Inheritance
+/**
+ * Practical 15.2 : Program to demonstrate Multilevel Inheritance
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022
@@ -26,7 +27,7 @@ class CarFuel extends CarColour {
 	public void carFuel() { // Method of Subclass
 		System.out.println("Fuel : Diesel");
 	}
-	
+
 }
 
 public class MultilevelInheritance {

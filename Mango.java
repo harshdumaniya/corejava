@@ -5,10 +5,10 @@ package com.hd.java;
  * @version 1.0
  * @since 25-01-2022
  */
-class Fruit{
+class Fruit {
 
 	void myFruit() {
-		System.out.println("this is fruit");
+		System.out.println("This is fruit");
 	}
 
 }

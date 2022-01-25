@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 16 : Program to demonstrate compile time polymorphism
+/**
+ * Practical 16 : Program to demonstrate compile time polymorphism
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022

@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 15.4 : Program to demonstrate Hybrid Inheritance
+/**
+ * Practical 15.4 : Program to demonstrate Hybrid Inheritance
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022

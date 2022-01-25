@@ -3,7 +3,8 @@ package com.hd.java;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**Practical 20 : Program to add string values in the list and print all the values using an iterator
+/**
+ * Practical 20 : Program to add string values in the list and print all the values using an iterator
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022

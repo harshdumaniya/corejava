@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 19 : Program to find the index of an array element
+/**
+ * Practical 19 : Program to find the index of an array element
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022
@@ -15,8 +16,7 @@ public class ArrayIndex {
 		while (i < numbers.length) { // Check the length of array
 			if (numbers[i] == element) {
 				return i;
-			}
-			else {
+			} else {
 				i = i + 1;
 			}
 		}

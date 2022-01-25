@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 17 : Write a program to demonstrate the interface
+/**
+ * Practical 17 : Write a program to demonstrate the interface
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022

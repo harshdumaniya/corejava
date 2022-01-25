@@ -3,7 +3,8 @@ package com.hd.java;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-/**Practical 22 : Prepare list and remove duplicate values of the list.
+/**
+ * Practical 22 : Prepare list and remove duplicate values of the list.
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022

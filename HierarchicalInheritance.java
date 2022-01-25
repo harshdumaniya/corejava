@@ -1,6 +1,7 @@
 package com.hd.java;
 
-/**Practical 15.3 : Program to demonstrate Hierarchical Inheritance
+/**
+ * Practical 15.3 : Program to demonstrate Hierarchical Inheritance
  * @author Harsh
  * @version 1.0
  * @since 25-01-2022
@@ -8,7 +9,7 @@ package com.hd.java;
 class Bike {
 
 	public void myBike() { // Method of SuperClass
-		System.out.println("running");
+		System.out.println("Running");
 	}
 
 }
@@ -16,7 +17,7 @@ class Bike {
 class Honda extends Bike {
 
 	public void honda() { // Method of SubClass
-		System.out.println("honda bike is");
+		System.out.println("Honda bike is");
 	}
 
 }
@@ -24,7 +25,7 @@ class Honda extends Bike {
 class Hero extends Bike {
 
 	public void hero() { // Method of SuperClass
-		System.out.println("hero bike is ");
+		System.out.println("Hero bike is ");
 	}
 	
 }
