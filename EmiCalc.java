@@ -2,7 +2,8 @@ package com.hd.core;
 
 import java.util.Scanner;
 
-/**Practical 8 : emi calculater
+/**
+ * Practical 8 : emi calculater
  * @author Harsh
  * @version 1.0
  * @since 24-01-2022

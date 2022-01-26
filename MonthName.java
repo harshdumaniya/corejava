@@ -2,7 +2,8 @@ package com.hd.core;
 
 import java.util.Scanner;
 
-/**Practical 3 : program to find the current month name from the given number
+/**
+ * Practical 3 : program to find the current month name from the given number
  * @author Harsh
  * @version 1.0
  * @since 24-01-2022

@@ -1,6 +1,7 @@
 package com.hd.core;
 
-/**Practical 7 : example of parameterized constructer
+/**
+ * Practical 7 : example of parameterized constructer
  * @author Harsh
  * @version 1.0
  * @since 24-01-2022

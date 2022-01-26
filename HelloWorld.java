@@ -1,6 +1,7 @@
 package com.hd.core;
 
-/**Practical 1 : program to print hello world
+/**
+ * Practical 1 : program to print hello world
  * @author Harsh
  * @version 1.0
  * @since 24-01-2022

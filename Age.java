@@ -2,7 +2,8 @@ package com.hd.core;
 
 import java.util.Scanner;
 
-/**Practical 2 : program to demonstrate the use of if/else statements
+/**
+ * Practical 2 : program to demonstrate the use of if/else statements
  * @author Harsh
  * @version 1.0
  * @since 24-01-2022

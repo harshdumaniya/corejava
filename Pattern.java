@@ -1,6 +1,7 @@
 package com.hd.core;
 
-/**Practical 5 : program to make pattern using for loop
+/**
+ * Practical 5 : program to make pattern using for loop
  * @author Harsh
  * @version 1.0
  * @since 24-01-2022
