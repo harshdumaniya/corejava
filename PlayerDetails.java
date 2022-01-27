@@ -28,15 +28,15 @@ class Player implements Comparable<Player> { // Implementing Player into Compara
 
 	public double getRating() {
 		return rating;
-		}
+	}
 
 	public String getName() {
 		return name;
-		}
+	}
 
 	public int getAge() {
 		return age;
-		}
+	}
 
 }
 
@@ -75,7 +75,7 @@ public class PlayerDetails {
 		System.out.println("Sorted by Rating :"); // Player sorted by rating using comparable
 		Collections.sort(list);
 		for (Player player : list) {
-		System.out.println(player.getRating() + " " + player.getName() + " " + player.getAge());
+			System.out.println(player.getRating() + " " + player.getName() + " " + player.getAge());
 		}
 
 		System.out.println("\nSorted by Age :"); // Player sorted by age using comparator

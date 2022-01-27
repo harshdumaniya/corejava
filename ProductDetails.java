@@ -53,11 +53,10 @@ public class ProductDetails {
 		list.add(new Product("Milk", 40, 2022));
 		list.add(new Product("Shampoo", 160, 2019));
 		list.add(new Product("Soap", 120, 2018));
-		
-		
+
 		Collections.sort(list);
 		for (Product product : list) {
-		System.out.println(product.getName() + " " + product.getPrice() + " " + product.getYear());
+			System.out.println(product.getName() + " " + product.getPrice() + " " + product.getYear());
 		}
 	}
 

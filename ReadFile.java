@@ -11,13 +11,13 @@ import java.io.FileReader;
 public class ReadFile {
 
 	public static void main(String args[]) throws Exception {
-		FileReader fileReader = new FileReader("myTestFile.txt"); // Initialize file object in FileReader
+		FileReader fileReader = new FileReader("myTestFile.txt"); // Initialize object filereader
 
-			int i;
-			while((i = fileReader.read()) != -1) {
-				System.out.print((char)i); // Read file and print it into String
+		int i;
+		while ((i = fileReader.read()) != -1) {
+			System.out.print((char) i); // Read file and print it into String
 		}
-			fileReader.close();
+		fileReader.close();
 	}
 
 }

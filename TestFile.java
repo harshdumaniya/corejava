@@ -14,16 +14,17 @@ public class TestFile {
 	public static void main(String[] args) {
 		File file = new File("myTestFile.txt"); // Initialize File object and passing path as argument
 		boolean result;
+
 		try {
 			result = file.createNewFile(); // Creates a new file
-			if (result) // Check that successfully created a new file
-			{
-				System.out.println("file created " + file.getCanonicalPath()); // Returns the path string
+			if (result) { // Check that successfully created a new file
+				System.out.println("file created " + file.getCanonicalPath());
 			} else {
-				System.out.println("File already exist at location: " + file.getCanonicalPath());
+				System.out.println("File already exist at location: "
+						+ file.getCanonicalPath());
 			}
 		} catch (IOException e) {
-			e.printStackTrace(); //Prints exception if any
+			e.printStackTrace(); // Prints exception if any
 		}
 	}
 
