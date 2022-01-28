@@ -20,11 +20,11 @@ insert into employee(id , first_name, last_name, age, mobile_number, address) va
 insert into employee(id , first_name, last_name, age, mobile_number, address) values (104, 'Vishal', 'Verma', 22, 9789634150, '5,Krishnakunj Recidency,nikol,Ahmedabad.');
 insert into employee(id , first_name, last_name, age, mobile_number, address) values (105, 'Parth', 'Sharma', 26, 7769846125, '77,maruti bunglows,nikol,Ahmedabad.');
 
-insert into employee_salary(id, salary, date) values (101, 20000, '2022-01-05');
-insert into employee_salary(id, salary, date) values (102, 22000, '2022-01-11');
-insert into employee_salary(id, salary, date) values (103, 18000, '2022-01-26');
-insert into employee_salary(id, salary, date) values (104, 12000, '2022-01-01');
-insert into employee_salary(id, salary, date) values (105, 26000, '2022-01-21');
+insert into employee_salary(id, salary, date) values (101, 20000.00, '2022-01-05');
+insert into employee_salary(id, salary, date) values (102, 22000.00, '2022-01-11');
+insert into employee_salary(id, salary, date) values (103, 18000.00, '2022-01-26');
+insert into employee_salary(id, salary, date) values (104, 12000.00, '2022-01-01');
+insert into employee_salary(id, salary, date) values (105, 26000.00, '2022-01-21');
 
 insert into employee_hobby(id) values (101);
 insert into employee_hobby(id) values (102);
