@@ -1,7 +1,7 @@
 create table hobby(id int(10), name varchar(45), primary key(id));
 create table employee(id int(10), first_name varchar(20), last_name varchar(20), age tinyint(3), mobile_number varchar(17), address varchar(70), primary key(id));
-create table employee_salary(id int(10), salary int(15), date date, fk_employee_id int(10), foreign key(fk_employee_id) references employee(id), primary key(id));
-create table employee_hobby(id int(10), fk_employee_id int(10), fk_hobby_id int(10), foreign key(fk_employee_id) references employee(id), foreign key(fk_hobby_id) references employee(id), primary key(id));
+create table employee_salary(id int(10), salary decimal(15,2), date date, fk_employee_id int(10), foreign key(fk_employee_id) references employee(id), primary key(id));
+create table employee_hobby(id int(10), fk_employee_id int(10), fk_hobby_id int(10), foreign key(fk_employee_id) references employee(id), foreign key(fk_hobby_id) references hobby(id), primary key(id));
 
 select * from hobby;
 select * from employee;
